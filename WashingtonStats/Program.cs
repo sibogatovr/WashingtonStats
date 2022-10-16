@@ -62,7 +62,7 @@ namespace WashintonStats
 
                         sqlCommand = new SqlCommand(command, sqlConnection);
 
-                        sqlDataReader = sqlCommand.ExecuteReader(); //?
+                        sqlDataReader = sqlCommand.ExecuteReader();
 
                         while (sqlDataReader.Read())
                         {
